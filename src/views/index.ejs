@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div id="standings-modal" class="modal">
+        <div id="standings" class="player-list">
+        </div>
+    </div>
+    <div id="select-loser-modal" class="modal">
+        <div id="select-loser" class="player-list">
+            <h3 class="modal-header">BOOM! Who lost this round?</h3>
+        </div>
+    </div>
+        <div id="app-container" class="page-container">
+            <a class="game-anchor" id="menu-anchor" href="/"><span id="menu-text">MENU</span></a>
+            <div id="bomb">
+                <img id="bomb-image" src="img/bomb.png" alt="">
+            </div>
+            <span id="cards-left" class="noselect"></span>
+            <div id="game-items-container">
+                <div id="dice">
+                    <span id="side" class="noselect">Tick</span>
+                </div>
+                <div id="card">
+                    <span id="syllable" class="noselect"></span>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"
+        ></script>
+    <script type="module" src="js/main.js"></script>
+    </script>
+</body>
+</html>
